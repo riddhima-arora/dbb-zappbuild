@@ -94,12 +94,9 @@ Once you have a clone of zAppBuild in your Git provider, you can customize the p
 
         ![Output of Git status to view files changed during the merge attempt](./img/dbb-zappbuild-status.png)
 
+
     6. Open the unmerged files and resolve them manually. Either use the terminal, or an IDE for this task.
 
-        :::tip
-
         The Git integration in many modern IDEs (for example, VS Code) is able to provide a side-by-side comparison highlighting the diff between your feature branch and the incoming changes from the merge attempt (in this case, from `zappbuild-official`). This can help make manual resolution of any merge conflicts much easier.
-
-        :::
 
     7. Commit the changes and verify them with a sample application before committing it (or opening a pull request to commit it) to your main branch that is used for all your production DBB builds.
